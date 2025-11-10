@@ -7,10 +7,20 @@ function Navbar() {
     <nav>
       <h1>Akash</h1>
       <ul>
-        <Link to="/About">About</Link>
-        <Link to="/">Home</Link>
-        <Link to="/User">User</Link>
-        <Link to="/Contact">Contact</Link>
+        <ul>
+          <li>
+            <Link to="/About">About</Link>
+          </li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/User">User</Link>
+          </li>
+          <li>
+            <Link to="/Contact">Contact</Link>
+          </li>
+        </ul>
       </ul>
     </nav>
   );
